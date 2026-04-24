@@ -10,6 +10,6 @@ interface WordPressApi {
         @Query("per_page") perPage: Int = 10,
         @Query("page") page: Int = 1,
         @Query("categories") categoryId: Int? = null,
-        @Query("_embed") embed: String = "wp:featuredmedia"
+        @Query("_embed") embed: Int = 1
     ): List<Post>
 }
