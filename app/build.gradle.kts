@@ -9,10 +9,11 @@ android {
 
     defaultConfig {
         applicationId = "com.raydogs.app"
-        minSdk        = 24
+        minSdk        = 21
         targetSdk     = 35
         versionCode   = 1
         versionName   = "1.0"
+        multiDexEnabled = true
     }
 
     signingConfigs {
@@ -60,4 +61,5 @@ dependencies {
     implementation(libs.workmanager)
     implementation(libs.coroutines.android)
     implementation(libs.fragment.ktx)
+    implementation(libs.multidex)
 }
