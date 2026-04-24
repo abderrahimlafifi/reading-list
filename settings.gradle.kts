@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ReadingList"
+rootProject.name = "RayDogs"
 include(":app")
